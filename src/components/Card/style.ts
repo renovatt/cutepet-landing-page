@@ -14,4 +14,12 @@ export const Container = styled.section<ContainerSideProps>`
     margin-top: 2rem;
     border-radius: .4rem;
     border: 1px solid #000;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 4rem;
+        height: auto;
+        border: none;
+        padding: .4rem;
+    }
 `

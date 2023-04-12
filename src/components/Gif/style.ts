@@ -17,4 +17,11 @@ export const Content = styled.figure`
         object-fit: cover;
         border-radius: .4rem;
     }
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: 100%;
+        width: 300px;
+        height: 300px;
+    }
 `

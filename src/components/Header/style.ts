@@ -11,6 +11,10 @@ export const Header = styled.header`
     color: #fff;
     padding: 0 6rem;
     margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+        padding: 0 1rem;
+    }
 `
 
 export const Logo = styled.figure`

@@ -2,6 +2,10 @@ import React from 'react'
 import * as S from './style'
 import { Card } from '../Card';
 import desk from '../../assets/screens.png';
+import { AiFillSchedule } from 'react-icons/ai'
+import { MdSpaceDashboard } from 'react-icons/md'
+import { FaUserCircle } from 'react-icons/fa'
+import { BsPersonVcardFill } from 'react-icons/bs'
 
 const Functionalities = () => {
     return (
@@ -12,30 +16,30 @@ const Functionalities = () => {
                 <Card
                     side='left'
                     gif={desk}
-                    svg='svg'
-                    title='Cadastro de clientes'
-                    descrption='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
+                    svg={MdSpaceDashboard}
+                    title='Visão geral'
+                    description='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
 
                 <Card
                     side='right'
                     gif={desk}
-                    svg='svg'
+                    svg={BsPersonVcardFill}
                     title='Cadastro de clientes'
-                    descrption='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
+                    description='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
 
                 <Card
                     side='left'
                     gif={desk}
-                    svg='svg'
-                    title='Cadastro de clientes'
-                    descrption='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
+                    svg={FaUserCircle}
+                    title='Filtro de busca'
+                    description='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
 
                 <Card
                     side='right'
                     gif={desk}
-                    svg='svg'
-                    title='Cadastro de clientes'
-                    descrption='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
+                    svg={AiFillSchedule}
+                    title='Agendamentos'
+                    description='Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel. Você pode cadastrar seus clientes para manter um controle, campo de busca e informações totalmenete editavel.' />
             </S.Cards>
         </S.Container>
     )

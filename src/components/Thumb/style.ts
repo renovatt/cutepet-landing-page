@@ -14,6 +14,9 @@ export const Title = styled.h1`
     text-align: center;
     width: 25rem;
 
+    @media (max-width: 768px) {
+        width: 90%;
+    }
 `
 
 export const Text = styled.p`
@@ -21,6 +24,10 @@ export const Text = styled.p`
     text-align: center;
     width: 35rem;
     margin-top: 2rem;
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
 `
 
 export const Span = styled.span`
@@ -33,6 +40,10 @@ export const ButtonContent = styled.section`
     justify-content: space-around;
     width: 25rem;
     margin-top: 2rem;
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
 `
 
 export const Button = styled(Link)`
@@ -89,5 +100,9 @@ export const DeskContent = styled.figure`
         height: 100%;
         border-radius: .4rem;
         object-fit: contain;
+    }
+
+    @media (max-width: 768px) {
+        width: 90%;
     }
 `
