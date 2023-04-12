@@ -5,28 +5,23 @@ export const GlobalStyle = createGlobalStyle`
 
 :root {
   --max-width: 1100px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --background-default: rgb(255,108,21);
+    /* --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(221,188,11,1) 73%); */
+
+    --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(243,222,44,1) 73%);
 }
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: var(--font-mono);
+    font-family: 'Poppins', sans-serif;
 }
-
-body {
-    min-width: 100vw;
-    min-height: 100vh;
-}
-
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 html {
@@ -35,8 +30,9 @@ html {
 }
 
 main{
-    /* display: flex; */
-    /* justify-content: space-around; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar{
@@ -47,7 +43,7 @@ main{
     border-radius: .4rem;
 }
 ::-webkit-scrollbar-thumb{
-    background: #ed2f5a;
+    background: #101010;
     border-radius: .4rem;
 }
 
