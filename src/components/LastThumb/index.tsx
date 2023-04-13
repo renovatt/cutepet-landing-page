@@ -14,7 +14,7 @@ export const LastThumb = () => {
                 <S.Title>Conheça agora mesmo</S.Title>
                 <S.Span>Totalmente online</S.Span>
 
-                <S.Button href={'#'}>CutePet</S.Button>
+                <S.Button href={'https://schedule-petshop-system.vercel.app/'} target='_blank'>CutePet</S.Button>
             </S.Content>
         </S.Container>
     )

@@ -9,7 +9,7 @@ const Header = () => {
       <S.Logo>
         <Image src={logo} alt={'logo'} />
       </S.Logo>
-      <S.Button href={'#'}>CutePet</S.Button>
+      <S.Button href={'https://schedule-petshop-system.vercel.app/'} target='_blank'>CutePet</S.Button>
     </S.Header>
   )
 }
