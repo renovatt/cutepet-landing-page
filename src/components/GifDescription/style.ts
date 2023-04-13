@@ -16,7 +16,7 @@ export const Container = styled.section`
 `
 
 export const Title = styled.h2`
-    color: #fff;
+    color: #252422;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,7 +29,7 @@ export const Title = styled.h2`
 
 export const Text = styled.p`
     font-weight: bold;
-    color: #fff;
+    color: #252422;
     margin-top: 1rem;
     
     @media (max-width: 768px) {

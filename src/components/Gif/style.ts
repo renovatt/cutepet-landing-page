@@ -10,11 +10,14 @@ export const Content = styled.figure`
     justify-content: center;
     width: 350px;
     height: 350px;
+    border-radius: .4rem;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.55);
+    background-color: var(--text-white-color);
 
     img{
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: .4rem;
     }
 

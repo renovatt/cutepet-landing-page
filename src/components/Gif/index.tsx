@@ -7,10 +7,13 @@ type ImageProps = {
 }
 
 export const Gif = ({ gif }: ImageProps) => {
+    const handleLoad = (event: React.SyntheticEvent<HTMLImageElement>): void => {
+        event.currentTarget.style.opacity = "1";
+    }
     return (
         <S.Container className='animation-fade'>
             <S.Content>
-                <Image src={gif} alt='gif' />
+                <Image src={gif} alt='gif' onLoad={handleLoad} />
             </S.Content>
         </S.Container>
     )

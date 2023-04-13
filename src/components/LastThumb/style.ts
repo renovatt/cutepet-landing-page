@@ -19,7 +19,7 @@ export const Content = styled.section`
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
-    background-color: #fff;
+    background-color: #fceade;
     border-radius: .4rem;
 `
 
@@ -50,7 +50,7 @@ export const Span = styled.span`
     text-align: center;
     font-size: .8rem;
     text-transform: uppercase;
-    color: #101010;
+    color: var(--text-dark-color);
 `
 
 export const Button = styled(Link)`

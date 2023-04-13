@@ -13,7 +13,7 @@ export const Container = styled.section<ContainerSideProps>`
     height: 30rem;
     margin-top: 2rem;
     border-radius: .4rem;
-    border: 1px solid #000;
+    border: 1px solid var(--text-dark-color);
 
     @media (max-width: 768px) {
         flex-direction: column;

@@ -13,6 +13,7 @@ export const Title = styled.h1`
     font-weight: bold;
     text-align: center;
     width: 25rem;
+    color: var(--text-dark-color);
 
     @media (max-width: 768px) {
         width: 90%;
@@ -20,10 +21,12 @@ export const Title = styled.h1`
 `
 
 export const Text = styled.p`
-     font-weight: bold;
+     /* font-weight: bold; */
+    font-size: 1rem;
     text-align: center;
     width: 35rem;
     margin-top: 2rem;
+    color: var(--text-dark-color);
 
     @media (max-width: 768px) {
         width: 90%;
@@ -55,7 +58,7 @@ export const Button = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: #fff;
+    color: var(--text-white-color);
     background: var(--background-default);
 
     &:hover{
@@ -73,14 +76,14 @@ export const Github = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: #000;
-    background: #fff;
-    border: 1px solid #000;
+    color: var(--text-dark-color);
+    background-color: var(--text-white-color);
+    border: 1px solid var(--text-dark-color);
 
     &:hover{
         transition: all .3s;
-        color: #fff;
-        background: #000;
+        color: var(--text-white-color);
+        background: var(--text-dark-color);
     }
 
     svg{
