@@ -6,11 +6,8 @@ export const GlobalStyle = createGlobalStyle`
 :root {
   --max-width: 1100px;
     --background-default: rgb(255,108,21);
-    /* --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(221,188,11,1) 73%); */
-
-    /* --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(243,222,44,1) 73%); */
-
-    --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(233,255,112,1) 73%);
+ 
+    /* --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(233,255,112,1) 73%); */
 
     --background-linear: linear-gradient(0deg, rgba(255,108,21,0.994014793417367) 0%, rgba(232,138,60,1) 14%, rgba(233,255,112,1) 73%);
 
@@ -40,6 +37,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--text-white-color);
 }
 
 ::-webkit-scrollbar{

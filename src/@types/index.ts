@@ -13,4 +13,9 @@ export type Description = {
     title: string;
     description: string;
     svg: IconType;
+    side: string;
+}
+
+export type ContainerSideProps = {
+    side: string;
 }

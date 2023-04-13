@@ -8,7 +8,11 @@ export const Card = ({ ...props }: CardTypeProps) => {
     return (
         <S.Container side={props.side}>
             <Gif gif={props.gif} />
-            <GifDescription title={props.title} description={props.description} svg={props.svg} />
+            <GifDescription
+                title={props.title}
+                description={props.description}
+                svg={props.svg}
+                side={props.side} />
         </S.Container>
     )
 }
