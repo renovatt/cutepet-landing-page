@@ -34,7 +34,7 @@ export const Text = styled.p`
 `
 
 export const Span = styled.span`
-    color: #ff6c15;
+    color: var(--text-orange-color);
 `
 
 export const ButtonContent = styled.section`

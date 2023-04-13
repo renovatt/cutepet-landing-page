@@ -8,7 +8,7 @@ export const Header = styled.header`
     width: var(--max-width);
     width: 100%;
     height: 10rem;
-    color: #fff;
+    color: var(--text-white-color);
     padding: 0 6rem;
     margin-bottom: 2rem;
 
@@ -41,7 +41,7 @@ export const Button = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: #fff;
+    color: var(--text-white-color);
     background: var(--background-default);
 
     &:hover{

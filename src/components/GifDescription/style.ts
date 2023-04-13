@@ -62,7 +62,7 @@ export const Svg = styled.div`
 `
 
 export const Icon = styled.i`
-    color: #ff6c15;
+    color: var(--text-orange-color);
     width: 2.75rem;
     height: 2.75rem;
 `

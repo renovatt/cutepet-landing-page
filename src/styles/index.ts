@@ -6,13 +6,13 @@ export const GlobalStyle = createGlobalStyle`
 :root {
   --max-width: 1100px;
     --background-default: rgb(255,108,21);
- 
-    /* --background-linear: linear-gradient(0deg, rgba(255,108,21,1) 0%, rgba(232,138,60,1) 41%, rgba(233,255,112,1) 73%); */
-
-    --background-linear: linear-gradient(0deg, rgba(255,108,21,0.994014793417367) 0%, rgba(232,138,60,1) 14%, rgba(233,255,112,1) 73%);
+    --background-linear: linear-gradient(
+        0deg, rgba(255,108,21,0.994014793417367) 0%,
+        rgba(232,138,60,1) 14%, rgba(233,255,112,1) 73%);
 
     --text-dark-color: #252422;
     --text-white-color: #fceade;
+    --text-orange-color: #ff6c15;
 }
 
 *{
@@ -37,24 +37,20 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--text-white-color);
+    background-color: transparent;
 }
 
 ::-webkit-scrollbar{
     width: 6px;
 }
 ::-webkit-scrollbar-track{
-    background-color: #fff;
+    background-color:  var(--text-white-color);
     border-radius: .4rem;
 }
 ::-webkit-scrollbar-thumb{
-    background: #101010;
+    background:  var(--text-dark-color);
     border-radius: .4rem;
 }
-
-/* ::selection{
-    background: transparent;
-} */
 
 *, input, button{
     border:0;
