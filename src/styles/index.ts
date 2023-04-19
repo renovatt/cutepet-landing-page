@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 
 :root {
   --max-width: 1100px;
-    --background-linear: linear-gradient(0deg, rgba(2,73,89,1) 0%, rgba(209,231,224,1) 100%);
+    --background-linear: linear-gradient(0deg, rgba(2,73,89,1) 0%, rgba(209,231,224,1) 50%);
 
     --highlight-color: #d1e7e0;
     --main-background: #ffffff; 
