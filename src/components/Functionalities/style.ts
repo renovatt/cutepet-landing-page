@@ -13,7 +13,7 @@ export const Span = styled.span`
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: var(--text-dark-color);
+    color: var(--text-secondary-color);
 `
 
 export const Title = styled.h1`

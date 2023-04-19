@@ -19,7 +19,7 @@ export const Content = styled.section`
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
-    background-color:  var(--text-white-color);
+    background-color:  var(--highlight-color);
     border-radius: .4rem;
 `
 
@@ -42,7 +42,7 @@ export const Logo = styled.figure`
 export const Title = styled.h1`
     font-weight: bold;
     text-align: center;
-    color: var(--text-orange-color);
+    color: var(--text-primary-color);
 `
 
 export const Span = styled.span`
@@ -50,7 +50,7 @@ export const Span = styled.span`
     text-align: center;
     font-size: .8rem;
     text-transform: uppercase;
-    color: var(--text-dark-color);
+    color: var(--text-secondary-color);
 `
 
 export const Button = styled(Link)`
@@ -62,9 +62,9 @@ export const Button = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: var(--text-white-color);
+    color: var(--text-main-color);
     margin-top: 2rem;
-    background: var(--background-default);
+    background-color: var( --primary-background);
 
     &:hover{
         transition: all .3s;

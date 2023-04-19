@@ -17,13 +17,13 @@ export const Container = styled.section`
 `
 
 export const Title = styled.h2<ContainerSideProps>`
-    color: var(--text-dark-color);
+    color: var(--text-secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
 
-    /* color: ${(props) => props.side === 'left' ? '#252422' : '#fceade'}; */
+    /* color: ${(props) => props.side === 'left' ? '#024959' : '#fceade'}; */
 
     @media (max-width: 768px) {
         text-align: center;
@@ -32,10 +32,10 @@ export const Title = styled.h2<ContainerSideProps>`
 
 export const Text = styled.p<ContainerSideProps>`
     font-weight: bold;
-    color: var(--text-dark-color);
+    color: var(--text-secondary-color);
     margin-top: 1.5rem;
 
-    /* color: ${(props) => props.side === 'left' ? '#252422' : '#fceade'}; */
+    /* color: ${(props) => props.side === 'left' ? '#024959' : '#fceade'}; */
     
     @media (max-width: 874px) {
         width: 90%;
@@ -56,13 +56,13 @@ export const Svg = styled.div`
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--text-white-color);
+    background-color: var(--main-background);
     padding: .4rem;
     margin-left: .4rem;
 `
 
 export const Icon = styled.i`
-    color: var(--text-orange-color);
+    color: var(--svg-primary-color);
     width: 2.75rem;
     height: 2.75rem;
 `

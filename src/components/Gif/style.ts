@@ -11,8 +11,9 @@ export const Content = styled.figure`
     width: 350px;
     height: 350px;
     border-radius: .4rem;
+    background-color: var(--main-background);
     /* box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25); */
-    background-color: var(--text-white-color);
+    /* border: 1px solid var(--border-secondary-color); */
 
     img{
         width: 100%;

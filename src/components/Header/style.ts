@@ -8,7 +8,7 @@ export const Header = styled.header`
     width: var(--max-width);
     width: 100%;
     height: 10rem;
-    color: var(--text-white-color);
+    color: var(--text-main-color);
     padding: 0 6rem;
     margin-bottom: 2rem;
 
@@ -41,8 +41,8 @@ export const Button = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: var(--text-white-color);
-    background: var(--background-default);
+    color: var(--text-main-color);
+    background-color: var( --primary-background);
 
     &:hover{
         transition: all .3s;

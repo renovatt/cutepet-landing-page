@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './style'
 import { Card } from '../Card';
-import all from '../../assets/all.png';
+import dash from '../../assets/dash.png';
 import clients from '../../assets/clients.gif';
 import modalPet from '../../assets/modal-pet.gif';
 import schedulePet from '../../assets/schedule-pet.gif';
@@ -17,7 +17,7 @@ const Functionalities = () => {
             <S.Cards>
                 <Card
                     side='left'
-                    gif={all}
+                    gif={dash}
                     svg={MdSpaceDashboard}
                     title='Visão geral'
                     description='Com o Cute Pet, é possível ter uma visão geral dos seus clientes e agendamentos marcados para aquele mês, incluindo os atendimentos do dia e os cancelados do mês.' />

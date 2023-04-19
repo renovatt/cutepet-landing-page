@@ -6,7 +6,7 @@ export const Footer = styled.footer`
     justify-content: space-around;
     height: 10rem;
     margin: 0 2rem;
-    border-top: 1px solid var(--text-white-color);
+    border-top: 1px solid var(--border-clean-color);
     margin-top: 2rem;
 
     @media(max-width: 40rem) {
@@ -18,7 +18,7 @@ export const FooterDescription = styled.div`
     display: flex;
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--text-dark-color);
+    color: var(--text-main-color);
 `
 
 export const FooterCopyright = styled.span`
@@ -35,7 +35,7 @@ export const SocialMedia = styled.div`
 
 export const FooterLink = styled.a`
     display: flex;
-    color: var(--text-dark-color);
+    color: var(--text-main-color);
     align-items: center;
     transition: .2s;
     font-size: .9rem;
@@ -43,16 +43,16 @@ export const FooterLink = styled.a`
     svg{
         height: 25px;
         width: 25px;
-        color: var(--text-dark-color);
+        color: var(--text-main-color);
         transition: .2s;
     }
 
     svg:hover{
-        color: var(--text-white-color);
+        color: var(--text-primary-color);
         transform: scale(1.2);
     }
 
     &:hover{
-        color: var(--text-white-color);
+        color: var(--text-primary-color);
     }
 `

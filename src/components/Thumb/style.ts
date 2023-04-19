@@ -13,7 +13,7 @@ export const Title = styled.h1`
     font-weight: bold;
     text-align: center;
     width: 25rem;
-    color: var(--text-dark-color);
+    color: var(--text-secondary-color);
 
     @media (max-width: 768px) {
         width: 90%;
@@ -26,7 +26,7 @@ export const Text = styled.p`
     text-align: center;
     width: 35rem;
     margin-top: 2rem;
-    color: var(--text-dark-color);
+    color: var(--text-secondary-color);
 
     @media (max-width: 768px) {
         width: 90%;
@@ -34,7 +34,7 @@ export const Text = styled.p`
 `
 
 export const Span = styled.span`
-    color: var(--text-orange-color);
+    color: var(--text-primary-color);
 `
 
 export const ButtonContent = styled.section`
@@ -58,8 +58,8 @@ export const Button = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: var(--text-white-color);
-    background: var(--background-default);
+    color: var(--text-main-color);
+    background-color: var( --primary-background);
 
     &:hover{
         transition: all .3s;
@@ -76,14 +76,14 @@ export const Github = styled(Link)`
     width: 10rem;
     height: 2.5rem;
     border-radius: .4rem;
-    color: var(--text-dark-color);
-    background-color: var(--text-white-color);
-    border: 1px solid var(--text-dark-color);
+    color: var(--text-secondary-color);
+    background-color: var(--text-main-color);
+    border: 1px solid var(--text-secondary-color);
 
     &:hover{
         transition: all .3s;
-        color: var(--text-white-color);
-        background: var(--text-dark-color);
+        color: var(--text-main-color);
+        background: var(--text-secondary-color);
     }
 
     svg{

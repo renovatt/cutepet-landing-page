@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './style'
 import { ImGithub } from 'react-icons/im'
-import desk from '../../assets/screens.png'
+import telas from '../../assets/screen.png'
 import Image from 'next/image'
 
 const Thumb = () => {
@@ -18,7 +18,7 @@ const Thumb = () => {
             </S.ButtonContent>
 
             <S.DeskContent>
-                <Image src={desk} alt={'desk-image'} />
+                <Image src={telas} alt={'desk-image'} />
             </S.DeskContent>
         </S.Content>
     )
